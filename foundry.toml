@@ -3,4 +3,12 @@ src = "src"
 out = "out"
 libs = ["lib"]
 
+[anvil]
+# Sets the default block gas limit (optional)
+block_gas_limit = 30000000
+# Sets the default chain ID (optional)
+chain_id = 1337
+# Enables or disables mining (optional)
+auto_mine = true
+
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
